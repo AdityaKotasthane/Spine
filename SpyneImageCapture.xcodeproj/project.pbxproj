@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		501FFDAA2CE322BF00BFB09E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501FFD912CE322BD00BFB09E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501FFD982CE322BD00BFB09E;
+			remoteInfo = SpyneImageCapture;
+		};
+		501FFDB42CE322BF00BFB09E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501FFD912CE322BD00BFB09E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501FFD982CE322BD00BFB09E;
+			remoteInfo = SpyneImageCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		501FFD992CE322BD00BFB09E /* SpyneImageCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyneImageCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501FFDA92CE322BF00BFB09E /* SpyneImageCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyneImageCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501FFDB32CE322BF00BFB09E /* SpyneImageCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyneImageCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		501FFD9B2CE322BD00BFB09E /* SpyneImageCapture */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpyneImageCapture;
+			sourceTree = "<group>";
+		};
+		501FFDAC2CE322BF00BFB09E /* SpyneImageCaptureTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpyneImageCaptureTests;
+			sourceTree = "<group>";
+		};
+		501FFDB62CE322BF00BFB09E /* SpyneImageCaptureUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpyneImageCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501FFD962CE322BD00BFB09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501FFDA62CE322BF00BFB09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501FFDB02CE322BF00BFB09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501FFD902CE322BD00BFB09E = {
+			isa = PBXGroup;
+			children = (
+				501FFD9B2CE322BD00BFB09E /* SpyneImageCapture */,
+				501FFDAC2CE322BF00BFB09E /* SpyneImageCaptureTests */,
+				501FFDB62CE322BF00BFB09E /* SpyneImageCaptureUITests */,
+				501FFD9A2CE322BD00BFB09E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501FFD9A2CE322BD00BFB09E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501FFD992CE322BD00BFB09E /* SpyneImageCapture.app */,
+				501FFDA92CE322BF00BFB09E /* SpyneImageCaptureTests.xctest */,
+				501FFDB32CE322BF00BFB09E /* SpyneImageCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501FFD982CE322BD00BFB09E /* SpyneImageCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501FFDBD2CE322BF00BFB09E /* Build configuration list for PBXNativeTarget "SpyneImageCapture" */;
+			buildPhases = (
+				501FFD952CE322BD00BFB09E /* Sources */,
+				501FFD962CE322BD00BFB09E /* Frameworks */,
+				501FFD972CE322BD00BFB09E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				501FFD9B2CE322BD00BFB09E /* SpyneImageCapture */,
+			);
+			name = SpyneImageCapture;
+			packageProductDependencies = (
+			);
+			productName = SpyneImageCapture;
+			productReference = 501FFD992CE322BD00BFB09E /* SpyneImageCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		501FFDA82CE322BF00BFB09E /* SpyneImageCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501FFDC02CE322BF00BFB09E /* Build configuration list for PBXNativeTarget "SpyneImageCaptureTests" */;
+			buildPhases = (
+				501FFDA52CE322BF00BFB09E /* Sources */,
+				501FFDA62CE322BF00BFB09E /* Frameworks */,
+				501FFDA72CE322BF00BFB09E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501FFDAB2CE322BF00BFB09E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				501FFDAC2CE322BF00BFB09E /* SpyneImageCaptureTests */,
+			);
+			name = SpyneImageCaptureTests;
+			packageProductDependencies = (
+			);
+			productName = SpyneImageCaptureTests;
+			productReference = 501FFDA92CE322BF00BFB09E /* SpyneImageCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		501FFDB22CE322BF00BFB09E /* SpyneImageCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501FFDC32CE322BF00BFB09E /* Build configuration list for PBXNativeTarget "SpyneImageCaptureUITests" */;
+			buildPhases = (
+				501FFDAF2CE322BF00BFB09E /* Sources */,
+				501FFDB02CE322BF00BFB09E /* Frameworks */,
+				501FFDB12CE322BF00BFB09E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501FFDB52CE322BF00BFB09E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				501FFDB62CE322BF00BFB09E /* SpyneImageCaptureUITests */,
+			);
+			name = SpyneImageCaptureUITests;
+			packageProductDependencies = (
+			);
+			productName = SpyneImageCaptureUITests;
+			productReference = 501FFDB32CE322BF00BFB09E /* SpyneImageCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501FFD912CE322BD00BFB09E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					501FFD982CE322BD00BFB09E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					501FFDA82CE322BF00BFB09E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 501FFD982CE322BD00BFB09E;
+					};
+					501FFDB22CE322BF00BFB09E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 501FFD982CE322BD00BFB09E;
+					};
+				};
+			};
+			buildConfigurationList = 501FFD942CE322BD00BFB09E /* Build configuration list for PBXProject "SpyneImageCapture" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501FFD902CE322BD00BFB09E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 501FFD9A2CE322BD00BFB09E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501FFD982CE322BD00BFB09E /* SpyneImageCapture */,
+				501FFDA82CE322BF00BFB09E /* SpyneImageCaptureTests */,
+				501FFDB22CE322BF00BFB09E /* SpyneImageCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501FFD972CE322BD00BFB09E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501FFDA72CE322BF00BFB09E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501FFDB12CE322BF00BFB09E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501FFD952CE322BD00BFB09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501FFDA52CE322BF00BFB09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501FFDAF2CE322BF00BFB09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		501FFDAB2CE322BF00BFB09E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501FFD982CE322BD00BFB09E /* SpyneImageCapture */;
+			targetProxy = 501FFDAA2CE322BF00BFB09E /* PBXContainerItemProxy */;
+		};
+		501FFDB52CE322BF00BFB09E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501FFD982CE322BD00BFB09E /* SpyneImageCapture */;
+			targetProxy = 501FFDB42CE322BF00BFB09E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		501FFDBB2CE322BF00BFB09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		501FFDBC2CE322BF00BFB09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		501FFDBE2CE322BF00BFB09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpyneImageCapture/Preview Content\"";
+				DEVELOPMENT_TEAM = 75L65663QN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		501FFDBF2CE322BF00BFB09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpyneImageCapture/Preview Content\"";
+				DEVELOPMENT_TEAM = 75L65663QN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		501FFDC12CE322BF00BFB09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75L65663QN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyneImageCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpyneImageCapture";
+			};
+			name = Debug;
+		};
+		501FFDC22CE322BF00BFB09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75L65663QN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyneImageCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpyneImageCapture";
+			};
+			name = Release;
+		};
+		501FFDC42CE322BF00BFB09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75L65663QN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpyneImageCapture;
+			};
+			name = Debug;
+		};
+		501FFDC52CE322BF00BFB09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75L65663QN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpyneImageCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501FFD942CE322BD00BFB09E /* Build configuration list for PBXProject "SpyneImageCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501FFDBB2CE322BF00BFB09E /* Debug */,
+				501FFDBC2CE322BF00BFB09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501FFDBD2CE322BF00BFB09E /* Build configuration list for PBXNativeTarget "SpyneImageCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501FFDBE2CE322BF00BFB09E /* Debug */,
+				501FFDBF2CE322BF00BFB09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501FFDC02CE322BF00BFB09E /* Build configuration list for PBXNativeTarget "SpyneImageCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501FFDC12CE322BF00BFB09E /* Debug */,
+				501FFDC22CE322BF00BFB09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501FFDC32CE322BF00BFB09E /* Build configuration list for PBXNativeTarget "SpyneImageCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501FFDC42CE322BF00BFB09E /* Debug */,
+				501FFDC52CE322BF00BFB09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501FFD912CE322BD00BFB09E /* Project object */;
+}

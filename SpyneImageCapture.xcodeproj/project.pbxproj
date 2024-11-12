@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		501FFDCA2CE323B600BFB09E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 501FFDC92CE323B600BFB09E /* RealmSwift */; };
+		501FFDE92CE327F400BFB09E /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 501FFDC92CE323B600BFB09E /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		501FFDAA2CE322BF00BFB09E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,15 +28,42 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		501FFDEA2CE327F400BFB09E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				501FFDE92CE327F400BFB09E /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		501FFD992CE322BD00BFB09E /* SpyneImageCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyneImageCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		501FFDA92CE322BF00BFB09E /* SpyneImageCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyneImageCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501FFDB32CE322BF00BFB09E /* SpyneImageCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyneImageCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		09A972B82CE33BB80064409E /* Exceptions for "SpyneImageCapture" folder in "SpyneImageCapture" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 501FFD982CE322BD00BFB09E /* SpyneImageCapture */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		501FFD9B2CE322BD00BFB09E /* SpyneImageCapture */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				09A972B82CE33BB80064409E /* Exceptions for "SpyneImageCapture" folder in "SpyneImageCapture" target */,
+			);
 			path = SpyneImageCapture;
 			sourceTree = "<group>";
 		};
@@ -52,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501FFDCA2CE323B600BFB09E /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +135,7 @@
 				501FFD952CE322BD00BFB09E /* Sources */,
 				501FFD962CE322BD00BFB09E /* Frameworks */,
 				501FFD972CE322BD00BFB09E /* Resources */,
+				501FFDEA2CE327F400BFB09E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +146,7 @@
 			);
 			name = SpyneImageCapture;
 			packageProductDependencies = (
+				501FFDC92CE323B600BFB09E /* RealmSwift */,
 			);
 			productName = SpyneImageCapture;
 			productReference = 501FFD992CE322BD00BFB09E /* SpyneImageCapture.app */;
@@ -195,6 +230,9 @@
 			);
 			mainGroup = 501FFD902CE322BD00BFB09E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				501FFDC62CE323B600BFB09E /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 501FFD9A2CE322BD00BFB09E /* Products */;
 			projectDirPath = "";
@@ -396,20 +434,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpyneImageCapture/Preview Content\"";
-				DEVELOPMENT_TEAM = 75L65663QN;
+				DEVELOPMENT_TEAM = JS9P3X2U8F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpyneImageCapture/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture and upload images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCapture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedivyanshupabia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -425,20 +466,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpyneImageCapture/Preview Content\"";
-				DEVELOPMENT_TEAM = 75L65663QN;
+				DEVELOPMENT_TEAM = JS9P3X2U8F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpyneImageCapture/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture and upload images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aditya.SpyneImageCapture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedivyanshupabia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -558,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		501FFDC62CE323B600BFB09E /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		501FFDC92CE323B600BFB09E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 501FFDC62CE323B600BFB09E /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 501FFD912CE322BD00BFB09E /* Project object */;
 }
